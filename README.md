@@ -1,7 +1,7 @@
-Ansible role template
+Ansible Python role
 =========
 
-{Summary of the role objectives and functions.}
+This role will install Python on a Centos 8 node in "raw" mode. This is necessary when Python is not present on the remote host.
 
 Role Variables
 --------------
