@@ -6,5 +6,5 @@
   register: check_python
 
 - name: Install Python
-  raw: yum -y install python3
+  raw: apt-get install -y python3
   when: check_python.rc != 0
